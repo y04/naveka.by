@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>На века.by</title>
+	<link rel="icon" href="favicon.svg">
+	<meta name="description" content="На века.by - сайт продаётся">
+	<meta name="keywords" content="на века,сайт,домен">
+<style>
+body {
+	margin:0px;
+	font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+	text-align:center;
+	background: #eee;
+}
+#container {
+	color:#888;
+	font-size:32px;
+	font-weight:bold;
+	padding-top:200px;
+	position:fixed;
+	width:100%;
+	bottom:45%;
+	display:block;
+}
+#flip {
+	height:61px;
+	overflow:hidden;
+}
+#flip > div > div {
+	padding:4px 24px;
+	height:45px;
+	margin-bottom:45px;
+	color:#fff;
+	text-shadow: 0px 0px 8px #0004;
+	display:inline-block;
+}
+#flip div:first-child {
+	animation: show 6s infinite;
+}
+#flip div div {
+	background:#4c8;
+}
+#flip div:first-child div {
+	background:#5ce;
+}
+#flip div:last-child div {
+	background:#d34;
+}
+@keyframes show {
+	0% {margin-top:-270px;}
+	5% {margin-top:-184px;}
+	33% {margin-top:-184px;}
+	38% {margin-top:-90px;}
+	66% {margin-top:-90px;}
+	71% {margin-top:0px;}
+	99.99% {margin-top:0px;}
+	100% {margin-top:-270px;}
+}
+a {
+	color:#aaa;
+}
+a:hover {
+	color:#888;
+}
+p {
+	position:fixed;
+	width:100%;
+	bottom:2%;
+	font-size:16px;
+	color:#aaa;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+	Здесь может быть ваша
+	<div id="flip">
+		<div><div>история и память</div></div>
+		<div><div>стройка и ремонт</div></div>
+		<div><div>любовь и дружба</div></div>
+	</div>
+	на века!
+</div>
+<p>Разместите здесь ваш сайт и перейдите на новый уровень ведения бизнеса.
+<br>Это доступнее, чем кажется. <a href="tel:+375445979797" itemprop="telephone" title="+375445979797">Звоните</a> или <a href="https://t.me/simip" title="@simip">пишите</a>, и мы будем рады вам помочь.</p>
+</body>
+</html>
